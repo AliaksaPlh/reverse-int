@@ -8,7 +8,7 @@ module.exports = function reverse (n) {
 // };
 // return +result;
 
-    const str = `${Math.abs(n)}`;
+       const str = `${Math.abs(n)}`;
     const arrStr = Array.from(str); 
     let result = arrStr.reverse();
     return +result.join('');
